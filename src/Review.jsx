@@ -1,7 +1,8 @@
 function Review(props){
   return(
-    <div>
-    reivew</div>
+    <div className="review-box">
+    <p>   <em>"{props.text}"  </em></p>
+    </div>
   );
 
 }

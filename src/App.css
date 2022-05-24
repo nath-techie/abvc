@@ -1,37 +1,95 @@
 .App {
-  text-align: center;
-;
+  text-align: center;}
 
-
-
-}
 .head{
-  margin:0;
-color: black;font-size: 5rem;
+margin:0;background-color: black;
+color: white;font-size: 4rem;
 font-family: 'Sacramento', cursive;font-weight: bolder;
 }
-.h2{
-  color: black;font-family: 'Reem Kufi', sans-serif;font-weight: bolder;
 
+.h2{
+  background-color: black;border-radius: 10%;
+  color: white;font-family: 'Reem Kufi', sans-serif;font-weight: bolder;
   }
 
-.fragrance{
+.extradiv{margin:3rem;
+    display: flex;
+    flex-flow:wrap;
+    flex-direction: row;
+    justify-content: space-around;}
 
-  display: flex;flex-basis: auto;
+.extraimg{
+  border:8px solid;
+  border-color: white;
+box-shadow: 0 0 0 8px #ff9999,
+            inset 0 0 0 8px #ff9999;
+  height: 400px; width:250px;
+  border-radius: 10% 70%/25%;
+}
+
+.extratext{font-family: 'Reem Kufi', sans-serif;
+  font-size: 2rem;
+  align-items: center;justify-content: center;
+}
+
+.headline{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+
+.fragrance{margin:2rem;
+
+  display: flex;
   flex-flow: row wrap;
   flex-direction: row;
   justify-content: space-around;
 }
+
 .fragimage{
-  border:10px solid;border-color: #ff4d88;
+  border:8px solid;
+  border-color: white;
+box-shadow: 0 0 0 8px violet,
+            inset 0 0 0 8px black;
   height: 200px; width:200px;
-  border-radius: 120px;
+  border-radius: 50%;
 }
+
+.review{
+  display: flex;
+  flex-direction: row;flex-flow: wrap;justify-content:center;
+}
+
+.review-box{background-color: white;
+  border: 2px solid black;
+  margin:8px;
+}
+
+
 .fragname{
   color: black;font-family: 'Reem Kufi', sans-serif; font-size: 2rem;font-weight: bolder;
 }
 
+.bottom{margin-top:50px;
+  background-color: black;
+  height:200px;
+}
+.product-photo{
+  height:400px;width:200px;
+}
+.proddiv{
+  flex-direction: row;justify-content: center;
 
+}
+.price{
+  font-family: 'Reem Kufi', sans-serif;font-size: 2rem;
+}
+a{color: white;
+font-family: 'Reem Kufi', sans-serif; font-size: 2rem;
+}
+.address{color: white;
+  font-family: 'Reem Kufi', sans-serif; font-size: 1rem;
+
+}
 .App-link {
   color: #61dafb;
 }
