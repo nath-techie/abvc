@@ -18,7 +18,7 @@ import Sidenav from './Sidenav.jsx';
 
 function App() {
   const [wid, setWid] = useState('0%');
-  const open=()=>{setWid('25%');}
+  const open=()=>{setWid('40%');}
   const closeNav=()=>{setWid('0%');}
 
   return (
