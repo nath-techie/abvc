@@ -95,7 +95,7 @@ box-shadow: 0 0 0 8px #ff9999,
   height:200px;
 }
 .product-photo{
-  height:400px;width:200px;
+  height:400px;width:200px;border-radius:10%;
 }
 .proddiv{
   flex-direction: row;justify-content: center;
